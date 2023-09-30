@@ -1,0 +1,18 @@
+.radio {
+  position: relative;
+}
+.radio__circle {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background-image: url("../img/circle.png");
+  border-radius: 50%;
+}
+input[type="radio"] {
+  &:checked {
+    & ~ .radio__circle {
+      transition: all 170ms;
+      background-image: url("../img/radio.png");
+    }
+  }
+}
