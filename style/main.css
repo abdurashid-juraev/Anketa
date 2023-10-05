@@ -227,7 +227,12 @@ body {
 
 .logo {
   width: 131px;
-  height: 30px;
+  height: 42px;
+}
+@media (max-width: 575px) {
+  .logo {
+    height: 30px;
+  }
 }
 .logo img {
   width: 100%;
