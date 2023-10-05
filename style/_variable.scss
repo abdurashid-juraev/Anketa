@@ -68,6 +68,9 @@ body {
 }
 .pb-70 {
   padding-bottom: 70px;
+  &:last-child {
+    padding-bottom: 174px;
+  }
 }
 .w__lg {
   width: 1078px;
